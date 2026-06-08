@@ -2,7 +2,7 @@
 
 A tiny CLI that tells you where an IP address lives.
 
-Made by Coco. Quick geolocation, no fluff.
+Made by Ethan Yeang. Quick geolocation, no fluff.
 
 ## Install
 
