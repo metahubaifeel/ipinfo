@@ -1,0 +1,15 @@
+[project]
+name = "ipinfo"
+version = "0.1.0"
+description = "A CLI tool to query IP geolocation information from ip-api.com"
+requires-python = ">=3.10"
+dependencies = [
+    "httpx",
+]
+
+[project.scripts]
+ipinfo = "ipinfo.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
