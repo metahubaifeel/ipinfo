@@ -6,8 +6,10 @@ Made by Ethan Yeang. Quick geolocation, no fluff.
 
 ## Install
 
+Requires Python ≥3.10 and [uv](https://docs.astral.sh/uv/).
+
 ```bash
-pip install -e .
+uv venv && uv pip install -e . --python .venv/bin/python
 ```
 
 ## Usage
